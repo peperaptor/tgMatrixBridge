@@ -1,0 +1,8 @@
+python-telegram-bot>=20.7
+python-telegram-bot[socks]>=20.7
+matrix-nio>=0.21.2
+aiohttp>=3.9
+aiohttp-socks>=0.7.0,<0.8.0
+python-dotenv>=1.0.0
+aiosqlite>=0.19.0
+cryptography>=3.5
