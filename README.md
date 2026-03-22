@@ -106,37 +106,37 @@ routing правило:
 
 ### matrix_authorized и admin
 
-| команда                            | описание |
-|                                    | |
-| `/addUser <tgLogin> <matrixLogin>` | добавить matrix_authorized пользователя |
-| `/addRecipient <matrixLogin>`      | добавить получателя по matrix логину |
-| `/removeRecipient <tgLogin>`       | удалить получателя из своего списка |
-| `/changeRecipient <matrixLogin>`   | выбрать получателя и начать переписку |
-| `/whoRecipient`                    | показать текущего получателя |
-| `/listRecipient`                   | список своих получателей |
-| `/help`                            | справка |
+| команда                            | описание \|
+|                                    | \|
+| `/addUser <tgLogin> <matrixLogin>` | добавить matrix_authorized пользователя \|
+| `/addRecipient <matrixLogin>`      | добавить получателя по matrix логину \|
+| `/removeRecipient <tgLogin>`       | удалить получателя из своего списка \|
+| `/changeRecipient <matrixLogin>`   | выбрать получателя и начать переписку \|
+| `/whoRecipient`                    | показать текущего получателя \|
+| `/listRecipient`                   | список своих получателей \|
+| `/help`                            | справка \|
 
 ### tg_only
 
-| команда                         | описание  |
-|                                 | |
-| `/changeRecipient <matrixLogin>`| выбрать получателя и начать переписку |
-| `/whoRecipient`                 | показать текущего получателя |
-| `/listRecipient`                | список тех кто тебя добавил |
-| `/help`                         | справка |
+| команда                         | описание  \|
+|                                 | \|
+| `/changeRecipient <matrixLogin>`| выбрать получателя и начать переписку \|
+| `/whoRecipient`                 | показать текущего получателя \|
+| `/listRecipient`                | список тех кто тебя добавил \|
+| `/help`                         | справка \|
 
 ## команды matrix (начинаются с !)
 
-| команда                             | описание |
-|                                     | |
-| `!addUser <tgLogin> <matrixLogin>`  | добавить matrix_authorized пользователя |
-| `!addRecipient <tgLogin>`           | добавить tg_only получателя |
-| `!removeRecipient <tgLogin>`        | удалить получателя из своего списка |
-| `!changeRecipient <tgLogin>`        | выбрать получателя и начать переписку |
-| `!whoRecipient`                     | показать текущего получателя |
-| `!listRecipient`                    | список своих получателей |
-| `!confirm <токен>`                  | привязать telegram аккаунт |
-| `!help`                             | справка |
+| команда                             | описание \|
+|                                     | \|
+| `!addUser <tgLogin> <matrixLogin>`  | добавить matrix_authorized пользователя \|
+| `!addRecipient <tgLogin>`           | добавить tg_only получателя \|
+| `!removeRecipient <tgLogin>`        | удалить получателя из своего списка \|
+| `!changeRecipient <tgLogin>`        | выбрать получателя и начать переписку \|
+| `!whoRecipient`                     | показать текущего получателя \|
+| `!listRecipient`                    | список своих получателей \|
+| `!confirm <токен>`                  | привязать telegram аккаунт \|
+| `!help`                             | справка \|
 
 
 ## сценарии использования
